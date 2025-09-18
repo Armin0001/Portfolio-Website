@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { type JSX } from "react";
 import { Card, CardContent } from "./ui/components/Card";
 import { Button } from "./ui/components/Button";
 import { motion } from "framer-motion";
@@ -17,19 +17,19 @@ const projects: Project[] = [
   {
     title: "Task Manager App",
     description: "A full-stack to-do app with authentication, CRUD tasks, and PostgreSQL backend.",
-    link: "https://taskmanager.vercel.app",
+    link: "https://taskmanager2222.vercel.app",
     github: "https://github.com/yourname/taskmanager",
   },
   {
     title: "E-commerce Store",
     description: "Next.js + Stripe-powered e-commerce platform with an admin dashboard.",
-    link: "https://store.vercel.app",
+    link: "https://store2222.vercel.app",
     github: "https://github.com/yourname/store",
   },
   {
     title: "Blog Platform",
     description: "A blog app with rich text editor, comments, and SEO features.",
-    link: "https://blog.vercel.app",
+    link: "https://blog2222.vercel.app",
     github: "https://github.com/yourname/blog",
   },
 ];
