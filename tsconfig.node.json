@@ -13,13 +13,19 @@
     "moduleDetection": "force",
     "noEmit": true,
 
-    /* Linting */
+    /* JSX */
+    "jsx": "react-jsx",                  // enables new JSX transform
+
+    /* Linting / strict checks */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Remove unused imports like React to avoid TS6133 */
+    "importsNotUsedAsValues": "remove"
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts", "src"]
 }
