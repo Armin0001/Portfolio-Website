@@ -17,7 +17,7 @@ export default defineConfig([
     ],
     rules: {
   'no-unused-vars': 'off', // handled by @typescript-eslint
-  '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^React$' }],
+  '@typescript-eslint/no-unused-vars': 'off',
   '@typescript-eslint/explicit-module-boundary-types': 'off', // don’t force return types on every function
   '@typescript-eslint/no-explicit-any': 'off', // allow 'any'
   'react/prop-types': 'off', // TS handles props typing
