@@ -1,6 +1,6 @@
 "use client";
 
-import React, { type JSX } from "react";
+import { type JSX } from "react";
 import { Card, CardContent } from "./ui/components/Card";
 import { Button } from "./ui/components/Button";
 import { motion } from "framer-motion";
